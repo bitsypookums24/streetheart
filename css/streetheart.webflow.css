@@ -923,6 +923,21 @@
   align-items: center;
 }
 
+.brand {
+  display: inline-block;
+  width: 14%;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 5px 5px 5px 100px;
+  background-image: url('../images/STREETHEART-Logo-drips---White.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 50px;
+  line-height: 20;
+}
+
 .nav-link-2 {
   margin-top: 10px;
   margin-right: 20px;
@@ -1281,7 +1296,13 @@
   .checkbox-field-8 {
     margin-bottom: 30px;
   }
-
+  .brand {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 50px;
+  }
   .menu-button {
     margin-top: 20px;
     margin-left: 10px;
