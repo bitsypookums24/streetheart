@@ -105,7 +105,7 @@
 }
 
 .div-block {
-  padding-top: 0px;
+  padding-top: 10px;
   padding-bottom: 50px;
   background-color: rgba(0, 0, 0, 0.75);
 }
@@ -406,6 +406,8 @@
 }
 
 .div-block-7 {
+  padding-top: 20px;
+  padding-bottom: 0px;
   background-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -904,6 +906,9 @@
 }
 
 .bold-text-2 {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-family: rubik, sans-serif;
   font-size: 20px;
   font-weight: 500;
@@ -975,7 +980,7 @@
 
 .nav-link {
   margin-top: 10px;
-  margin-right: 20px;
+  margin-right: 0px;
   font-family: Rubik, sans-serif;
   color: #fff;
   font-size: 20px;
@@ -991,8 +996,7 @@
 }
 
 .navbar {
-  position: -webkit-sticky;
-  position: sticky;
+  position: static;
   top: 0px;
   z-index: 999999;
   display: -webkit-box;
@@ -1111,6 +1115,18 @@
   margin-left: 100px;
 }
 
+.image-10 {
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.link-block {
+  width: 7%;
+  margin-top: 10px;
+  margin-left: 1%;
+}
+
 @media (max-width: 991px) {
   .heading-2 {
     font-size: 100px;
@@ -1217,6 +1233,9 @@
   .image-9 {
     width: 10%;
     margin-right: 500px;
+  }
+  .link-block {
+    width: 100%;
   }
 }
 
@@ -1397,6 +1416,9 @@
   .heading-11 {
     font-size: 50px;
   }
+  .div-block-7 {
+    overflow: hidden;
+  }
   .heading-12 {
     font-size: 15px;
   }
@@ -1518,6 +1540,7 @@
     margin-top: 30px;
   }
   .menu-button {
+    margin-top: 0px;
     margin-left: 20px;
     background-color: #000;
   }
@@ -1543,6 +1566,9 @@
   .image-9 {
     width: 25%;
     margin-right: 100px;
+  }
+  .image-10 {
+    margin-left: 3%;
   }
 }
 
